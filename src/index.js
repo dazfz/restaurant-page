@@ -38,7 +38,7 @@ const createButtons = () => {
   container.appendChild(menu);
   container.appendChild(contact);
 
-  document.body.insertBefore(container, document.getElementById("content")); // insertar los tabs antes del contenido
+  document.body.insertBefore(container, document.getElementById("content")); // insertar los el tab container antes del contenido,
 };
 
 createButtons();
