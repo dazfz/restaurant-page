@@ -10,7 +10,6 @@ export const createHome = () => {
 
   const pizzaImage = document.createElement("img");
   pizzaImage.src = "pizza.jpg";
-  pizzaImage.alt = "Delicious Pizza";
 
   content.appendChild(heading);
   content.appendChild(description);
